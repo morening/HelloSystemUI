@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/id_linearlayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:layout_centerInParent="true">
+        <Button
+            android:id="@+id/hide_navigation_bar_without_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="隐藏导航栏（不刷新页面）" />
+
+        <Button
+            android:id="@+id/hide_navigation_bar_with_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="隐藏导航栏（刷新页面）" />
+
+        <Button
+            android:id="@+id/show_navigation_bar_translucent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="显示导航栏（透明）" />
+
+        <Button
+            android:id="@+id/show_navigation_bar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="显示导航栏" />
+    </LinearLayout>
+
+</RelativeLayout>

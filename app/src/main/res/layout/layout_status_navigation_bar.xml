@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/id_linearlayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        android:gravity="center_horizontal">
+        <Button
+            android:id="@+id/hide_status_navigation_bar_without_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="隐藏导航栏和状态栏(不刷新页面)" />
+
+        <Button
+            android:id="@+id/hide_status_navigation_bar_with_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="隐藏导航栏和状态栏(刷新页面)" />
+
+        <Button
+            android:id="@+id/show_status_navigation_bar_translucent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="显示导航栏和状态栏（透明）" />
+
+        <Button
+            android:id="@+id/show_navigation_status_bar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="显示导航栏和状态栏" />
+    </LinearLayout>
+
+
+
+</RelativeLayout>
