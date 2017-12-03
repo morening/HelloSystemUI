@@ -1,3 +1,14 @@
+# Hello series: A project to learn System UI
+## What is it?
+To explore how to show/hide Status bar and Navigation bar like below
+> getActivity().getWindow().getDecorView().setSystemUiVisibility(View.SYSTEM\_UI\_FLAG\_FULLSCREEN);
+
+## What I do?
+1. To summarize a little of knowledge about Status bar and Navigation bar like below
+2. To show the different testing result with different flag
+3. To create a simple app with ViewPager
+
+## What I learn?
 1. View.SYSTEM\_UI\_FLAG\_LAYOUT\_STABLE 固定window位置，不刷新页面
 2. View.SYSTEM\_UI\_FLAG\_HIDE\_NAVIGATION 隐藏导航栏
 3. View.SYSTEM\_UI\_FLAG\_FULLSCREEN 隐藏状态栏
